@@ -29,11 +29,16 @@
 
 /* grid item */
 .cbp-ig-grid li {
-	width: 33%;
+	width: 25%;
 	float: left;
-	height: 300px;
+	height: 230px;
 	text-align: center;
 	border-top: 1px solid #ddd;
+}
+
+.cbp-ig-grid .logo-menu-item{
+	width:100% !important;
+	height:300px;
 }
 
 /* we are using a combination of borders and box shadows to control the grid lines */
